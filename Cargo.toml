@@ -1,0 +1,9 @@
+[package]
+name = "mosquitto-mqtt"
+version = "1.0.2"
+authors = ["Aliev Yamanee <aliev.yamanee@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+mosquitto-mqtt-sys-rust = { git = "ssh://git@github.com/alievy/mosquitto-mqtt-sys-rust.git", branch = "master" }
+log = "0.4.*"
